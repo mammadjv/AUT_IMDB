@@ -1,0 +1,46 @@
+
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div{
+    position: fixed; left: 1% ; right: 1%;
+    height: 100%;
+}
+
+#div_1{
+    background-color: white;
+    position: relative; left: 0%;right: 0%;
+    height: 20%;
+}
+
+#div_2{
+    background-color: whitesmoke;
+    position: relative; left: 0%;right: 0%;
+    height: 5%;
+}
+
+#div_3{
+    background-image: url("../img/blue-31.png");
+    position: relative; left: 0%;right: 0%;
+    height: 70%;
+}
+
+#search_icon{
+    position: absolute;
+    left: 10%;
+    width: 5%;
+    top: 65%;
+    height: 30%;
+}
+#search_input{
+    border: none;
+    background-color: whitesmoke;
+    position: inherit;
+    left: 15%;
+    width: 30%;
+    top: 65%;
+    height: 29%;
+}
