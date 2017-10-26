@@ -1,4 +1,3 @@
-
 body{
     position: relative;
     width: 100%;
@@ -23,24 +22,113 @@ div{
 }
 
 #div_3{
-    background-image: url("../img/blue-31.png");
-    position: relative; left: 0%;right: 0%;
-    height: 70%;
+    position: relative; top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*width: 100%;*/
+    /*height: 75%;*/
+    filter: blur(4px);
+    background: url("../img/imdb_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #search_icon{
+    background: url("../img/search.png");
+    filter: brightness(95%);
     position: absolute;
     left: 10%;
     width: 5%;
     top: 65%;
     height: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat:   no-repeat;
 }
+
+#search_icon:active{
+    /*border:solid;*/
+    filter: brightness(80%);
+    /*border-color: darkgray;*/
+    /*border-width: 1px;*/
+}
+
 #search_input{
     border: none;
     background-color: whitesmoke;
-    position: inherit;
+    position: absolute;
     left: 15%;
     width: 30%;
     top: 65%;
     height: 29%;
+    text-align: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
+#search_input:focus{
+    border:solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    filter:brightness(97%);
+}
+
+
+#blue_icon{
+    position: absolute;
+    left: 65%;
+    width: 5%;
+    top: 65%;
+    height: 32%;
+}
+
+#login_button{
+    border:solid;
+    border-color: blue;
+    position: absolute;
+    left: 70%;
+    width: 10%;
+    top: 65%;
+    height: 30%;
+    border-radius: 10px;
+    color: blue;
+    background-color: aliceblue;
+    background-position: center;
+}
+#login_button:active{
+    border-color: blue;
+    color: mediumvioletred;
+    background-color: white;
+}
+
+.w3-light-grey{
+    color:#000!important;
+    background-color:#f1f1f1!important
+}
+.w3-bar{
+    width:100%;
+    overflow:hidden;
+    position: relative;
+    left: 0%;right: 0%;
+    height: 5%;
+}
+.w3-dropdown-click,.w3-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.w3-dropdown-hover:hover .w3-dropdown-content{display:block;z-index:1}
+.w3-dropdown-hover:first-child,.w3-dropdown-click:hover{background-color:#ccc;color:#000}
+.w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:#ccc;color:#000}
+.w3-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0}
+.w3-check,.w3-radio{width:24px;height:24px;position:relative;top:6px}
+.w3-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{width:100%}
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+
+.w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
+
+/*#w3-button:hover {*/
+    /*color:#000!important;*/
+    /*background-color:#ccc!important*/
+/*}*/
