@@ -35,7 +35,7 @@ div{
 }
 
 #search_icon{
-    background: url("../img/search.png");
+    /*background: url("../img/search.png");*/
     filter: brightness(95%);
     position: absolute;
     left: 10%;
@@ -86,22 +86,17 @@ div{
 }
 
 #login_button{
-    border:solid;
-    border-color: blue;
+    border: none;
     position: absolute;
     left: 70%;
     width: 10%;
     top: 65%;
     height: 30%;
     border-radius: 10px;
-    color: blue;
-    background-color: aliceblue;
-    background-position: center;
+    background-color: white;
 }
 #login_button:active{
-    border-color: blue;
-    color: mediumvioletred;
-    background-color: white;
+    filter: brightness(90%);
 }
 
 .w3-light-grey{
