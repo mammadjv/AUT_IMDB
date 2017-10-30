@@ -17,22 +17,43 @@
     <!--<link rel="stylesheet" href="assets/css/ie8.css" /><![endif]&ndash;&gt;-->
 </head>
 <body>
-    <div id="div_background">
+<div id="div_background">
+</div>
+<div id="register_part">
+    <div id="light_gray_header">
+        <input id = "cancel_button"  type="image" src="../img/cancel_button.png" >
     </div>
-    <div id="register_part">
-        <div id="light_gray_header">
-            <input id = "cancel_button"  type="image" src="../img/cancel_button.png" >
-        </div>
-        <div id="type_div">
-            <a href="login.html">
-            <input id = "sign_in_mode"  type="button" value="ورود" >
-            <a/>
-            <input id = "sign_up_mode"  type="button" value="عضویت">
-        </div>
-        <input id = "login_with_google"  type="image" src="../img/sign_in.png">
-        <form>
+    <div id="type_div">
+        <a href="login.html">
+        <input id = "sign_in_mode"  type="button" value="ورود" >
+        <a/>
+        <input id = "sign_up_mode"  type="button" value="عضویت">
+    </div>
+    <input id = "login_with_google"  type="image" src="../img/sign_in.png">
+    <form id="login_form">
+        <!--<input id="email" type="image" src="../img/شناسه%20ورود.png">-->
+        <img src="../img/mail.png" id="email">
+        <img src="../img/pass.png" id="pass">
+        <img src="../img/pass_repeat.png" id="pass_repeat">
+        <img src="../img/invitation.png" id="invitation">
+        <img src="../img/captcha.png" id="captcha">
 
-        </form>
-    </div>
+
+        <input id="id_input" type="text" , name="search" placeholder="ایمیل">
+        <input id="pass_input" type="text" , name="search" placeholder="رمز عبور">
+        <input id="pass_repeat_input" type="text" , name="search" placeholder="تکرار رمز عبور">
+        <input id="invitation_input" type="text" , name="search" placeholder="کد دعوت">
+        <input id="captcha_input" type="text" , name="search" placeholder="کد امنیتی">
+
+        <img id="captcha_sample" src="../img/captcha_sample.jpg">
+        <!--<input id="password_input" type="text" , name="search" placeholder="رمز عبور">-->
+        <input id="save_info" type="checkbox" name="save_info">
+        <comment id = "save_my_info_text">قوانین را مطالعه و می‌پذیرم</comment>
+        <input id = "login_button"  type="button" value="ورود">
+    </form>
+
+    <!--<label id = "save_my_info_text">مرا به خاطر بسپار</label>-->
+
+</div>
 </body>
 </html>
