@@ -1,0 +1,263 @@
+#div_background{
+    position: absolute; top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+    background: url("../img/imdb_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#register_part{
+    background-color:whitesmoke;
+    position:absolute; top: 10%;
+    left: 35%;
+    width:30%;
+    height:70%;
+}
+
+#light_gray_header{
+    background-color: #cccccc;
+    filter:brightness(95%);
+    position:relative; top: 0%;
+    left: 0%;
+    width:100%;
+    height:5%;
+
+}
+
+#cancel_button{
+    position:absolute; top: 0%;
+    filter:brightness(100%);
+    left: 90%;
+    width:10%;
+    height:98%;
+    border: none;
+}
+
+#type_div{
+    background-color: whitesmoke;
+    /*filter:brightness(95%);*/
+    position:absolute; top: 5%;
+    left: 0%;
+    width:100%;
+    height:8%;
+}
+
+#sign_up_mode{
+    background-color: dimgray;
+    filter:brightness(200%);
+    /*filter:brightness(95%);*/
+    border: none;
+    position:absolute; top: 0%;
+    left: 0%;
+    width:45%;
+    height:100%;
+    font-size: 100%;
+}
+#sign_in_mode{
+    background-color: whitesmoke;
+    border: none;
+    position:absolute; top: 0%;
+    left: 45%;
+    width:55%;
+    height:100%;
+    font-size: 100%;
+}
+
+
+#login_with_google{
+    position:absolute; top: 17%;
+    left: 20%;
+    width: 60%;
+    height:8%;
+    border-radius: 10px;
+}
+
+#login_with_google:active{
+    filter: brightness(90%);
+}
+
+
+#seperator_line{
+    position:relative; top: 0%;
+    left: 1%;
+    width:90%;
+}
+
+#ya{
+    position:relative; top: 0%;
+    left: 40%;
+    width:10%;
+    padding-top:20%;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+
+#login_form{
+    position:absolute; top: 25%;
+    left: 0%;
+    width:100%;
+    height: 75%;
+    /*background-color: red;*/
+}
+
+#email{
+    position:relative; top: 8%;
+    left: 78%;
+    width:18%;
+    height: 10%;
+    font-size: 50%;
+}
+#pass{
+    position:absolute; top: 28%;
+    left: 78%;
+    width:18%;
+    height: 10%;
+    font-size: 50%;
+}
+
+#captcha{
+    position:absolute; top: 48%;
+    left: 78%;
+    width:18%;
+    height: 10%;
+    font-size: 50%;
+}
+
+
+
+#pass_input{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 28%;
+    height: 10%;
+    left: 10%;
+    width: 65%;
+    text-align: right;
+    border:solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+#captcha_input{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 48%;
+    height: 10%;
+    left: 35%;
+    width: 40%;
+    text-align: right;
+    border:solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+#captcha_sample{
+    position: absolute;
+    top: 48%;
+    height: 10%;
+    left: 10%;
+    width: 20%;
+    border:solid;
+    border-width: 2px;
+    border-color: blue;
+
+}
+
+sup{
+color: red;
+}
+
+#id_input{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 8%;
+    height: 10%;
+    left: 10%;
+    width: 65%;
+    text-align: right;
+    border:solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+#save_info{
+    position: absolute;
+    top: 65%;
+    height: 10%;
+    left: 70%;
+    width: 20%;
+    border:solid;
+    border-width: 2px;
+    border-color: blue;
+}
+
+#save_my_info_text{
+    position: absolute;
+    top: 69%;
+    height: 5%;
+    left: 53%;
+    width: 20%;
+    font-size: 50%;
+    /*border:solid;*/
+    /*border-width: 2px;*/
+    /*border-color: blue;*/
+}
+
+#pass_recovery{
+    position: absolute;
+    top: 69%;
+    height: 5%;
+    left: 24%;
+    width: 20%;
+    font-size: 50%;
+
+}
+
+#login_button{
+    position: absolute;
+    top: 80%;
+    height: 10%;
+    left: 35%;
+    width: 30%;
+    font-size: 100%;
+    background-color:  seagreen;
+    text-align: center;
+    color:white;
+}
+/*#sign_up_mode{*/
+/*background-color: yellow;*/
+/*/!*filter:brightness(95%);*!/*/
+/*border: none;*/
+/*position:absolute; top: 0%;*/
+/*left: 0%;*/
+/*width:70%;*/
+/*height:100%;*/
+/*}*/
+
+/*input#round{*/
+/*width:100px; /!*same as the height*!/*/
+/*height:100px; /!*same as the width*!/*/
+/*background-color:#ff0000;*/
+/*border:1px solid #ff0000; /!*same colour as the background*!/*/
+/*color:#fff;*/
+/*font-size:1.6em;*/
+/*set the border-radius at half the size of the width and height*/
+/**/
+/*-webkit-border-radius: 50px;*/
+/*-moz-border-radius: 50px;*/
+/*border-radius: 50px;*/
+/*give the button a small drop shadow*/
+/*-webkit-box-shadow: 0 0 10px rgba(0,0,0, .75);*/
+/*-moz-box-shadow: 0 0 10px rgba(0,0,0, .75);*/
+/*box-shadow: 2px 2px 15px rgba(0,0,0, .75);*/
+/*}*/
