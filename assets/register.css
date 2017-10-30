@@ -10,7 +10,7 @@
 }
 
 #register_part{
-    background-color:white;
+    background-color:whitesmoke;
     position:absolute; top: 10%;
     left: 35%;
     width:30%;
@@ -23,48 +23,47 @@
     position:relative; top: 0%;
     left: 0%;
     width:100%;
-    height:10%;
+    height:5%;
 
 }
 
 #cancel_button{
     position:absolute; top: 0%;
-    background-color: #cccccc;
-    filter:brightness(99%);
+    filter:brightness(100%);
     left: 90%;
     width:10%;
     height:100%;
-    font-size: 80%;
-    color: white;
     border: none;
 }
 
 #type_div{
-    background-color: white;
-    filter:brightness(95%);
-    position:absolute; top: 10%;
+    background-color: whitesmoke;
+    /*filter:brightness(95%);*/
+    position:absolute; top: 5%;
     left: 0%;
     width:100%;
-    height:10%;
+    height:8%;
 }
 
 #sign_up_mode{
-    background-color: white;
+    background-color: whitesmoke;
     /*filter:brightness(95%);*/
     border: none;
     position:absolute; top: 0%;
     left: 0%;
-    width:50%;
+    width:65%;
     height:100%;
+    font-size: 100%;
 }
 #sign_in_mode{
-    background-color: white;
-    /*filter:brightness(95%);*/
+    background-color: dimgray;
+    filter:brightness(200%);
     border: none;
     position:absolute; top: 0%;
-    left: 50%;
-    width:50%;
+    left: 65%;
+    width:35%;
     height:100%;
+    font-size: 100%;
 }
 
 /*#sign_up_mode{*/
@@ -96,12 +95,10 @@
 /*}*/
 
 #login_with_google{
-    position:absolute; top: 25%;
+    position:absolute; top: 15%;
     left: 20%;
     width: 60%;
-    height:10%;
-    float: right;
-
+    height:8%;
     border-radius: 10px;
 }
 
