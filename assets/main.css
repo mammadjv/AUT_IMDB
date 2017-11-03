@@ -1,12 +1,17 @@
 body{
     position: relative;
-    width: 100%;
     height: 100%;
 }
 
-div{
-    position: fixed; left: 1% ; right: 1%;
+#main_div{
+    position: fixed; left: 0% ; right: 0%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    resize: both;
     height: 100%;
+}
+div::-webkit-scrollbar{
+    display: none;
 }
 
 #div_1{
@@ -22,20 +27,91 @@ div{
 }
 
 #div_3{
+    overflow-y: scroll;
+    /*overflow-x: scroll;*/
     position: relative; top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    /*width: 100%;*/
-    /*height: 75%;*/
+    height: 140%;
+}
+#imdb_image{
+    position: relative; top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
     filter: blur(4px);
-    background: url("../img/imdb_.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
+}
+
+#scroll_down{
+    position: relative; top: -50%;
+    left: 30%;
+    width: 40%;
+    height: 30%;
+}
+
+#description1{
+    position: absolute; top: 75%;
+    left: 20%;
+    right: 40%;
+    height: 10%;
+    background-color: white;
+    border:none;
+    border-color: darkcyan;
+    border-width: 2px;
+    text-align: right;
+}
+#description2{
+    position: absolute; top: 83%;
+    left: 20%;
+    right: 40%;
+    height: 5%;
+    background-color: white;
+    border:none;
+    border-color: darkcyan;
+    color: blue;
+    border-width: 2px;
+    text-align: right;
+}
+
+#twitter{
+    position: absolute; top: 76%;
+    left: 65%;
+    /*right: 5%;*/
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    /*filter:brightness();*/
+}
+
+#insta{
+    position: absolute; top: 76%;
+    left: 70%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#tele{
+    position: absolute; top: 76%;
+    left: 75%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+#google{
+    position: absolute; top: 76%;
+    left: 80%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 #search_icon{
-    /*background: url("../img/search.png");*/
     filter: brightness(95%);
     position: absolute;
     left: 10%;
@@ -98,6 +174,7 @@ div{
 #login_button:active{
     filter: brightness(90%);
 }
+
 
 .w3-light-grey{
     color:#000!important;
