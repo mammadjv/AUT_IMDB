@@ -10,6 +10,7 @@ body{
     resize: both;
     height: 100%;
 }
+
 div::-webkit-scrollbar{
     display: none;
 }
@@ -17,7 +18,7 @@ div::-webkit-scrollbar{
 #div_1{
     background-color: white;
     position: relative; left: 0%;right: 0%;
-    height: 20%;
+    height: 10%;
 }
 
 #div_2{
@@ -78,7 +79,7 @@ div::-webkit-scrollbar{
     position: absolute; top: 76%;
     left: 65%;
     /*right: 5%;*/
-    width: 50px;
+    width: 4%;
     height: 50px;
     background-color: white;
     border-radius: 10px;
@@ -88,7 +89,7 @@ div::-webkit-scrollbar{
 #insta{
     position: absolute; top: 76%;
     left: 70%;
-    width: 50px;
+    width: 4%;
     height: 50px;
     background-color: white;
     border-radius: 10px;
@@ -97,7 +98,7 @@ div::-webkit-scrollbar{
 #tele{
     position: absolute; top: 76%;
     left: 75%;
-    width: 50px;
+    width: 4%;
     height: 50px;
     background-color: white;
     border-radius: 10px;
@@ -105,7 +106,7 @@ div::-webkit-scrollbar{
 #google{
     position: absolute; top: 76%;
     left: 80%;
-    width: 50px;
+    width: 4%;
     height: 50px;
     background-color: white;
     border-radius: 10px;
@@ -116,8 +117,8 @@ div::-webkit-scrollbar{
     position: absolute;
     left: 10%;
     width: 5%;
-    top: 65%;
-    height: 30%;
+    top: 20%;
+    height: 50%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: none;
@@ -139,8 +140,8 @@ div::-webkit-scrollbar{
     position: absolute;
     left: 15%;
     width: 30%;
-    top: 65%;
-    height: 29%;
+    top: 20%;
+    height: 49%;
     text-align: right;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -155,19 +156,20 @@ div::-webkit-scrollbar{
 
 #blue_icon{
     position: absolute;
-    left: 65%;
-    width: 5%;
-    top: 65%;
-    height: 32%;
+    left: 70%;
+    width: 4%;
+    top: 22%;
+    height: 55%;
+    border-radius: 10px;
 }
 
 #login_button{
     border: none;
     position: absolute;
-    left: 70%;
+    left: 75%;
     width: 10%;
-    top: 65%;
-    height: 30%;
+    top: 20%;
+    height: 60%;
     border-radius: 10px;
     background-color: white;
 }
