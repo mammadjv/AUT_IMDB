@@ -74,8 +74,8 @@ select{
 
 .question{
     position: absolute;
-    left: 6%;
-    top: 26%;
+    left: 4%;
+    top: 22%;
     width: 5%;
     height: 3%;
     color:orange;
@@ -87,7 +87,7 @@ select{
 
 .grid{
     position: absolute;
-    left: 16%;
+    left: 17%;
     top: 20%;
     width: 4%;
     height: 20%;
@@ -98,7 +98,7 @@ select{
 .list{
     position: absolute;
     top: 20%;
-    left: 10%;
+    left: 12%;
     width: 4%;
     height: 20%;
     /*border:solid;*/
@@ -167,9 +167,9 @@ select{
 
 .radiogroup{
     position: absolute;
-    left: 2%;
-    top: 70%;
-    width: 15%;
+    left: 4%;
+    top: 75%;
+    width: 17%;
     height: 5%;
     direction: rtl;
     font-size: large;
@@ -178,16 +178,190 @@ select{
 .service_type{
 
 }
-.blueray{
+.bluray{
     color: blue;
     left:92%;
     border-bottom: solid;
+    /*position: relative;*/
     direction: rtl;
     margin-right: 4%;
     margin-left: 6%;
 }
 
+.downloadinfo{
+    position:relative;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 43px;
+    background-color: white;
+    border-radius: 10px;
+    border:solid;
+    border-color: lightseagreen;
+    /*display: inline-flex;*/
+}
 
+.quality{
+    position:relative;
+    /*border-bottom-left-radius: 9px;*/
+    /*border-top-left-radius: 9px;*/
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width:15%;
+    height: 43px;
+    background-color: lightseagreen;
+    color: white;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+.encoder{
+    position:absolute;
+    left: 15%;
+    top: 0px;
+    width:5%;
+    height: 43px;
+    background-color: white;
+    color:lightseagreen;
+    line-height: 40px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+
+}
+.orginallang{
+    position:absolute;
+    top:0;
+    left: 20%;
+    width:10%;
+    height: 43px;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+.filmname{
+    position:absolute;
+    top:0;
+    left: 30%;
+    width:15%;
+    height: 43px;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+.wave{
+    position:absolute;
+    top:0;
+    left:16%;
+    width:20%;
+    height: 90%;
+}
+
+.downloadrate{
+    position:absolute;
+    top:0;
+    left:60%;
+    width:20%;
+    height: 90%;
+    line-height: 40px;
+    color: lightseagreen;
+}
+
+
+.flagicon{
+    position:absolute;
+    top:0;
+    left: 70%;
+    width:5%;
+    height: 43px;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+
+.downlodicon{
+    position: absolute;
+    left: 76%;
+    top:0;
+    width: 5%;
+    height:43px;
+    border-radius: 0;
+    background-color: black;
+}
+
+.f{
+    position: absolute;
+    left: 81%;
+    top:0;
+    width: 5%;
+    height:43px;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+.downloadsize{
+    position: absolute;
+    left: 86%;
+    top:0;
+    width: 14%;
+    height:43px;
+    /*border-radius: 9px;*/
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    /*white-space: pre-line;*/
+    /*vertical-align: middle;*/
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
 
 .accounttype{
     position: absolute;
