@@ -192,10 +192,10 @@ color: red;
 
 #save_info{
     position: absolute;
-    top: 65%;
-    height: 10%;
-    left: 70%;
-    width: 20%;
+    top: 67%;
+    height: 20px;
+    left: 72%;
+    /*width: 20px;*/
     border:solid;
     border-width: 2px;
     border-color: blue;
@@ -207,6 +207,7 @@ color: red;
     height: 5%;
     left: 52%;
     width: 20%;
+    /*font-size: 20%;*/
     font-size: 50%;
     /*border:solid;*/
     /*border-width: 2px;*/
