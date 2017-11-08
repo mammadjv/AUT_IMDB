@@ -18,6 +18,14 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
+li div{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
 li select{
     /*display: inline-block;*/
     color: black;
@@ -33,6 +41,7 @@ li select{
 li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
+
 
 
 
@@ -370,6 +379,8 @@ select{
 #radiogroup{
     position: relative;
     margin-left: 100px;
+    display: inline-block;
+    background-color: white;
     /*left: 4%;*/
     /*top: 0%;*/
     /*top: 22%;*/
