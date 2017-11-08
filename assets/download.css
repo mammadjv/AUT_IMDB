@@ -78,11 +78,17 @@ body{
     height: 100%;
 }
 
-#musics , #movies{
+#movies{
     position: relative;
     width: 100%;
+    margin-top: 20%;
 }
 
+#musics{
+    position: relative;
+    width: 100%;
+    margin-top: 3%;
+}
 
 div::-webkit-scrollbar{
     display: none;
@@ -139,8 +145,8 @@ img:active{
 
 .filmstate{
     font-size: 20px;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    /*margin-left: 20%;*/
     background-color: white;
 
     /*border-bottom: solid;*/
@@ -363,10 +369,11 @@ select{
 
 #radiogroup{
     position: relative;
+    margin-left: 100px;
     /*left: 4%;*/
     /*top: 0%;*/
     /*top: 22%;*/
-    width: 100%;
+    /*width: 100px;*/
     /*height: 100px;*/
     /*line-height: 40px;*/
     /*margin-top: 50px;*/
